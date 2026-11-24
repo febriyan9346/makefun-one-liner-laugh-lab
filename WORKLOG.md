@@ -91,3 +91,10 @@ field, not our past.
   wrote entry.txt there. No relative "out" directory created.
 - Output: entry.txt, 66 chars + trailing newline, single line, UTF-8.
 - Kit check: see result below (run before reporting ready).
+- Kit check result (24 Nov ~07:26 WIB, commit 0b27aba): 5 passed
+  (competition_open, snapshot, license_osi, entrypoint,
+  repo_created_after_open), 1 failed — transcripts_present (expected at
+  builder stage: transcripts are bundled by the submitter from the parent
+  session per BOT.md), 15 skipped, 3 at-submission checks pending submit.
+  No other failure. Repo public at
+  https://github.com/febriyan9346/makefun-one-liner-laugh-lab, HEAD 0b27aba.
